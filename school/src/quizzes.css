@@ -5,7 +5,7 @@
 
 .quizbox{
     border: 1px solid green;
-    width: 640px;
+    width: 85%;
     margin: auto;
     border: 3px solid blue;
     padding: 25px;
@@ -33,7 +33,8 @@
     margin: auto;
     width: 250px;
     height: 65px;
-    font-size: 25px;
+    /* font-size: 15px; */
+    font-size: 1.2rem;
     font-weight: 500;
     color: rgb(27, 0, 100);
     background: white;
@@ -43,7 +44,8 @@
 
 .container .index {
     margin: auto;
-    font-size: 18px;
+    /* font-size: 18px; */
+    font-size: 1rem;
 }
 
 .container .correct {
@@ -73,3 +75,6 @@
     color: red; /* Change color to red */
   }
   
+  .question{
+    font-size: 28px;
+  }
