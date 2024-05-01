@@ -4,7 +4,7 @@ import BreadCrumps from "../components/BreadCrumps";
 function Contact() {
   return (
     <div>
-      <BreadCrumps page="Contact us" title="Contact our Company" />
+      <BreadCrumps page="Contact us" title="Contact us" />
 
       {/* contact block */}
       {/* contact1 */}
@@ -21,16 +21,16 @@ function Contact() {
                 </p>
 
                 <div className="cont-top">
-                  <div className="cont-left text-center">
+                  {/* <div className="cont-left text-center">
                     <span className="fa fa-map-marker text-primary"></span>
-                  </div>
-                  <div className="cont-right">
+                  </div> */}
+                  {/* <div className="cont-right">
                     <h6>Our head office address</h6>
                     <p className="pr-lg-5">
                       Address here, 208 Trainer Avenue street, Illinois, UK -
                       62617.
                     </p>
-                  </div>
+                  </div> */}
                 </div>
                 <div className="cont-top margin-up">
                   <div className="cont-left text-center">
@@ -39,7 +39,7 @@ function Contact() {
                   <div className="cont-right">
                     <h6>Call for help </h6>
                     <p>
-                      <a href="tel:+(21) 255 999 8888">+(21) 255 999 8888</a>
+                      <a href="tel:+(91) 9xxxx xxx49 ">+(91) 9xxxx xxx49 </a>
                     </p>
                   </div>
                 </div>
@@ -50,8 +50,8 @@ function Contact() {
                   <div className="cont-right">
                     <h6>Contact with our support</h6>
                     <p>
-                      <a href="mailto:coursing@mail.com" className="mail">
-                        coursing@mail.com
+                      <a href="mailto:InfoSecByte@gmail.com" className="mail">
+                        InfoSecByte@gmail.com
                       </a>
                     </p>
                   </div>
@@ -60,7 +60,7 @@ function Contact() {
               <div className="map-content-9">
                 <h5 className="mb-sm-4 mb-3">Write to us</h5>
                 <form
-                  action="https://sendmail.w3layouts.com/submitForm"
+                  action="https://gmail.com"
                   method="post"
                 >
                   <div className="twice-two">

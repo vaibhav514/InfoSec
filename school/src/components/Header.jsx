@@ -31,8 +31,8 @@ function Header() {
             <h1>
               <a className="navbar-brand" href="/">
                 <span className="fa fa-diamond"></span>
-                Study Course
-                <span className="logo">Journey to success</span>
+                InfoSecByte
+                <span className="logo">Cyber Insights & Tools</span>
               </a>
             </h1>
 
@@ -72,12 +72,12 @@ function Header() {
                     Blog
                   </a>
                 </li>
-                <li className="nav-item @@courses__active">
+                <li className="nav-item @@quiz__active">
                   <a className="nav-link" href="/quiz">
                     Quiz
                   </a>
                 </li>
-                <li className="nav-item @@courses__active">
+                <li className="nav-item @@tools__active">
                   <a className="nav-link" href="/tools">
                     Tools
                   </a>

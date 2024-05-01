@@ -246,7 +246,7 @@ function About() {
         </div>
       </section>
       {/* stats */}
-      <section className="w3l-stats py-5" id="stats">
+      {/* <section className="w3l-stats py-5" id="stats">
         <div className="gallery-inner container py-lg-5 py-md-4">
           <span className="title-small text-center mb-1">Our Achievements</span>
           <h3 className="title-big text-center mb-5">Our progress never Ends</h3>
@@ -277,7 +277,7 @@ function About() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* //stats */}
 
     </div>

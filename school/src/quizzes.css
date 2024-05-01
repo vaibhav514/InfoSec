@@ -1,0 +1,81 @@
+.QSection {
+    height: 100%;
+    background-image: linear-gradient(#1e1e1e, #220663);
+    padding-bottom: 100px;
+}
+
+/* .container {
+    width: 640px;
+    margin: auto;
+    margin-top: 150px;
+    background: rgb(40, 40, 40);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+    padding: 40px 50px ;
+} */
+
+.container hr {
+    height: 2px;
+    border: none;
+    background: rgb(68, 0, 255);
+}
+
+/* .container ul li {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    padding-left: 15px;
+    border: 1px solid rgb(68, 0, 255);
+    border-radius: 8px;
+    margin-bottom: 20px;
+    cursor: pointer;
+} */
+
+.container button {
+    margin: auto;
+    width: 250px;
+    height: 65px;
+    font-size: 25px;
+    font-weight: 500;
+    color: rgb(27, 0, 100);
+    background: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.container .index {
+    margin: auto;
+    font-size: 18px;
+}
+
+.container .correct {
+    background: #9df1af;
+    border-color: rgb(37, 238, 74);
+    color: black;
+}
+
+.container .wrong {
+    background: #e58080;
+    border-color: #f83823;
+    color: black;
+}
+
+.timer {
+    /* position: fixed; */
+    top: 10px;
+    right: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    width: 250px;
+    transition: color 0.5s; /* Add transition effect for color change */
+  }
+  
+  .timer.warning {
+    color: red; /* Change color to red */
+  }
+  

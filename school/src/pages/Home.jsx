@@ -95,7 +95,7 @@ function Home() {
             </div>
         </section>
         {/* /main-slider */}
-        <section className="w3l-courses">
+        {/* <section className="w3l-courses">
             <div className="blog pb-5" id="courses">
                 <div className="container py-lg-5 py-md-4 py-2">
                     <h5 className="title-small text-center mb-1">Join our read Bloags</h5>
@@ -263,7 +263,7 @@ function Home() {
                     </div>
                 </div>
             </div>
-        </section>
+        </section> */}
 
         <section className="w3l-features py-5" id="facilities">
             <div className="call-w3 py-lg-5 py-md-4 py-2">
@@ -319,7 +319,7 @@ function Home() {
                 </h5>
                 <h3 className="title-big text-center mb-sm-5 mb-4">
                     Latest 
-                    <span>News</span>
+                    <span>Blog</span>
                 </h3>
                 <div className="row top-pics">
                     <div className="col-md-6">
@@ -333,10 +333,10 @@ function Home() {
                                     <img src="assets/images/team1.jpg" alt="blogs" className="img-fluid rounded-circle" />
                                     <ul className="blog-meta">
                                         <li>
-                                            <a href="#author">Isabella ava</a>
+                                            <a href="#author">Vaibhav Agrawal</a>
                                         </li>
                                         <li className="meta-item blog-lesson">
-                                            <span className="meta-value"> Nov 19, 2020 </span>. 
+                                            <span className="meta-value"> Apr 19, 2024 </span>. 
                                             <span className="meta-value ml-2">
                                                 <span className="fa fa-clock-o"></span> 
                                                 1 min
@@ -358,11 +358,11 @@ function Home() {
                                     <img src="assets/images/team2.jpg" alt="" className="img-fluid rounded-circle" />
                                     <ul className="blog-meta">
                                         <li>
-                                            <a href="#author">Charlotte mia</a>
+                                            <a href="#author">Manan Ladha</a>
                                         </li>
                                         <li className="meta-item blog-lesson">
                                             <span className="meta-value"> 
-                                                Nov 19, 2020 </span>. 
+                                                Apr 19, 2024 </span>. 
                                                 <span className="meta-value ml-2">
                                                     <span className="fa fa-clock-o"></span> 
                                                     1 min
@@ -383,11 +383,11 @@ function Home() {
                                         <img src="assets/images/team3.jpg" alt="" className="img-fluid rounded-circle" />
                                         <ul className="blog-meta">
                                             <li>
-                                                <a href="#author">Elizabeth</a>
+                                                <a href="#author">Archit Kumar</a>
                                             </li>
                                             <li className="meta-item blog-lesson">
                                                 <span className="meta-value"> 
-                                                    Nov 19, 2020 
+                                                    Apr 19, 2024 
                                                 </span>. 
                                                 <span className="meta-value ml-2">
                                                     <span className="fa fa-clock-o"></span> 
@@ -403,7 +403,7 @@ function Home() {
                 </div>
 
                 <div className="mt-md-5 mt-4 text-more text-center">
-                    <a href="blog.html">
+                    <a href="courses">
                         View All Posts 
                         <span className="pl-2 fa fa-long-arrow-right"></span>
                     </a>
@@ -449,9 +449,9 @@ function Home() {
                                         </a>
                                         <div className="box-content">
                                             <h3 className="title">
-                                                <a href="#url">James</a>
+                                                <a href="#url">Archit </a>
                                             </h3>
-                                            <span className="post">Director</span>
+                                            <span className="post">Student</span>
                                             <ul className="social">
                                                 <li>
                                                     <a href="#link" className="facebook">
@@ -474,9 +474,9 @@ function Home() {
                                         </a>
                                         <div className="box-content">
                                             <h3 className="title">
-                                                <a href="#url">Victoria</a>
+                                                <a href="#url">Manan</a>
                                             </h3>
-                                            <span className="post">Managing Director</span>
+                                            <span className="post">Student</span>
                                             <ul className="social">
                                                 <li>
                                                     <a href="#link" className="facebook">
@@ -499,9 +499,9 @@ function Home() {
                                         </a>
                                         <div className="box-content">
                                             <h3 className="title">
-                                                <a href="#url">Isabella</a>
+                                                <a href="#url">Vaibhav</a>
                                             </h3>
-                                            <span className="post">Teacher</span>
+                                            <span className="post">Student</span>
                                             <ul className="social">
                                                 <li>
                                                     <a href="#link" className="facebook">
@@ -522,7 +522,7 @@ function Home() {
                                         <a href="#url"><img src="assets/images/team4.jpg" alt=""
                                                 className="img-fluid radius-image" /></a>
                                         <div className="box-content">
-                                            <h3 className="title"><a href="#url">Elizabeth</a></h3>
+                                            <h3 className="title"><a href="#url">Dr. Praven Lalwani</a></h3>
                                             <span className="post">Teacher</span>
                                             <ul className="social">
                                                 <li>
@@ -545,226 +545,6 @@ function Home() {
                 </div>
             </div>
         </section>
-
-
-        {/* testimonials */}
-        <section className="w3l-testimonials" id="clients">
-            {/* /grids */}
-            <div className="cusrtomer-layout py-5">
-                <div className="container py-lg-4 py-md-3 pb-lg-0">
-
-                    <h5 className="title-small text-center mb-1">Testimonials</h5>
-                    <h3 className="title-big text-center mb-sm-5 mb-4">Happy Clients & Feedbacks</h3>
-                    {/* /grids */}
-                    <div className="testimonial-width">
-                        <div id="owl-demo1" className="owl-two owl-carousel owl-theme">
-                            <div className="item">
-                                <div className="testimonial-content">
-                                    <div className="testimonial">
-                                        <blockquote>
-                                            <q>Lorem ipsum dolor sit amet elit. Velit beatae
-                                                laudantium
-                                                voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora.
-                                                Dolores molestias adipisci dolo amet!.</q>
-                                        </blockquote>
-                                        <div className="testi-des">
-                                            <div className="test-img">
-                                                <img src="assets/images/team1.jpg" className="img-fluid"
-                                                    alt="client-img" />
-                                            </div>
-                                            <div className="peopl align-self">
-                                                <h3>John wilson</h3>
-                                                <p className="indentity">Student</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="item">
-                                <div className="testimonial-content">
-                                    <div className="testimonial">
-                                        <blockquote>
-                                            <q>Lorem ipsum dolor sit amet elit. Velit beatae
-                                                laudantium
-                                                voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora.
-                                                Dolores molestias adipisci dolo amet!.</q>
-                                        </blockquote>
-                                        <div className="testi-des">
-                                            <div className="test-img"><img src="assets/images/team2.jpg" className="img-fluid"
-                                                    alt="client-img" />
-                                            </div>
-                                            <div className="peopl align-self">
-                                                <h3>Julia sakura</h3>
-                                                <p className="indentity">Student</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="item">
-                                <div className="testimonial-content">
-                                    <div className="testimonial">
-                                        <blockquote>
-                                            <q>Lorem ipsum dolor sit amet elit. Velit beatae
-                                                laudantium
-                                                voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora.
-                                                Dolores molestias adipisci dolo amet!.</q>
-                                        </blockquote>
-                                        <div className="testi-des">
-                                            <div className="test-img"><img src="assets/images/team3.jpg" className="img-fluid"
-                                                    alt="client-img" />
-                                            </div>
-                                            <div className="peopl align-self">
-                                                <h3>Roy Linderson</h3>
-                                                <p className="indentity">Student</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="item">
-                                <div className="testimonial-content">
-                                    <div className="testimonial">
-                                        <blockquote>
-                                            <q>Lorem ipsum dolor sit amet elit. Velit beatae
-                                                laudantium
-                                                voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora.
-                                                Dolores molestias adipisci dolo amet!.</q>
-                                        </blockquote>
-                                        <div className="testi-des">
-                                            <div className="test-img"><img src="assets/images/team4.jpg" className="img-fluid"
-                                                    alt="client-img" />
-                                            </div>
-                                            <div className="peopl align-self">
-                                                <h3>Mike Thyson</h3>
-                                                <p className="indentity">Student</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="item">
-                                <div className="testimonial-content">
-                                    <div className="testimonial">
-                                        <blockquote>
-                                            <q>Lorem ipsum dolor sit amet elit. Velit beatae
-                                                laudantium
-                                                voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora.
-                                                Dolores molestias adipisci dolo amet!.</q>
-                                        </blockquote>
-                                        <div className="testi-des">
-                                            <div className="test-img"><img src="assets/images/team2.jpg" className="img-fluid"
-                                                    alt="client-img" />
-                                            </div>
-                                            <div className="peopl align-self">
-                                                <h3>Laura gill</h3>
-                                                <p className="indentity">Student</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="item">
-                                <div className="testimonial-content">
-                                    <div className="testimonial">
-                                        <blockquote>
-                                            <q>Lorem ipsum dolor sit amet elit. Velit beatae
-                                                laudantium
-                                                voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora.
-                                                Dolores molestias adipisci dolo amet!.</q>
-                                        </blockquote>
-                                        <div className="testi-des">
-                                            <div className="test-img"><img src="assets/images/team3.jpg" className="img-fluid"
-                                                    alt="client-img" />
-                                            </div>
-                                            <div className="peopl align-self">
-                                                <h3>Smith Johnson</h3>
-                                                <p className="indentity">Student</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="item">
-                                <div className="testimonial-content">
-                                    <div className="testimonial">
-                                        <blockquote>
-                                            <q>Lorem ipsum dolor sit amet elit. Velit beatae
-                                                laudantium
-                                                voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora.
-                                                Dolores molestias adipisci dolo amet!.</q>
-                                        </blockquote>
-                                        <div className="testi-des">
-                                            <div className="test-img"><img src="assets/images/team2.jpg" className="img-fluid"
-                                                    alt="client-img" />
-                                            </div>
-                                            <div className="peopl align-self">
-                                                <h3>Laura gill</h3>
-                                                <p className="indentity">Student</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="item">
-                                <div className="testimonial-content">
-                                    <div className="testimonial">
-                                        <blockquote>
-                                            <q>Lorem ipsum dolor sit amet elit. Velit beatae
-                                                laudantium
-                                                voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora.
-                                                Dolores molestias adipisci dolo amet!.</q>
-                                        </blockquote>
-                                        <div className="testi-des">
-                                            <div className="test-img"><img src="assets/images/team3.jpg" className="img-fluid"
-                                                    alt="client-img" />
-                                            </div>
-                                            <div className="peopl align-self">
-                                                <h3>Smith Johnson</h3>
-                                                <p className="indentity">Student</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                {/* /grids */}
-            </div>
-            {/* //grids */}
-        </section>
-        {/* //testimonials */}
-        <section className="w3l-clients py-5" id="clients">
-            <div className="call-w3 py-md-4 py-2">
-                <div className="container">
-                    <div className="company-logos text-center">
-                        <div className="row logos">
-                            <div className="col-lg-2 col-md-3 col-4">
-                                <img src="assets/images/brand1.png" alt="" className="img-fluid" />
-                            </div>
-                            <div className="col-lg-2 col-md-3 col-4">
-                                <img src="assets/images/brand2.png" alt="" className="img-fluid" />
-                            </div>
-                            <div className="col-lg-2 col-md-3 col-4">
-                                <img src="assets/images/brand3.png" alt="" className="img-fluid" />
-                            </div>
-                            <div className="col-lg-2 col-md-3 col-4 mt-md-0 mt-4">
-                                <img src="assets/images/brand4.png" alt="" className="img-fluid" />
-                            </div>
-                            <div className="col-lg-2 col-md-3 col-4 mt-lg-0 mt-4">
-                                <img src="assets/images/brand5.png" alt="" className="img-fluid" />
-                            </div>
-                            <div className="col-lg-2 col-md-3 col-4 mt-lg-0 mt-4">
-                                <img src="assets/images/brand6.png" alt="" className="img-fluid" />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
     </div>
   )
 }
