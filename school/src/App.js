@@ -8,6 +8,10 @@ import Tools from "./pages/tools";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import PasswordStrengthChecker from './pages/checker';
+import PasswordGenerator from './pages/pg';
+import Encryption from './pages/en';
+import Deception from './pages/de';
 function App() {
   return (
     <div>
@@ -20,6 +24,10 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/quiz" element={<Quiz />} />
           <Route path="/tools" element={<Tools />} />
+          <Route path="/checker" element={<PasswordStrengthChecker />} />
+          <Route path="/pg" element={<PasswordGenerator />} />
+          <Route path="/en" element={<Encryption />} />
+          <Route path="/de" element={<Deception />} />
         </Routes>
       </BrowserRouter>
       <Footer />

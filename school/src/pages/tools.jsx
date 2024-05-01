@@ -2,30 +2,21 @@
 import React from 'react';
 import BreadCrumps from "../components/BreadCrumps";
 
-// import PasswordStrengthChecker from './checker';
-// import PasswordGenerator from './pg';
-// import Encryption from './en';
-// import Deception from './de';
-
 function Tools() {
   return (
     <div>
       <BreadCrumps page="Tools" title="Tools" />
       <div>
-        <h3>Password Strength Checker</h3>
-        {/* <PasswordStrengthChecker /> */}
+      <h3><a href="checker">Password Strength Checker</a></h3>
       </div>
       <div>
-        <h3>Password Generator</h3>
-        {/* <PasswordGenerator /> */}
+        <h3><a href="pg">Password Generator</a></h3>
       </div>
       <div>
-        <h3>Encryption</h3>
-        {/* <Encryption /> */}
+        <h3><a href="en">Encryption</a></h3>
       </div>
       <div>
-        <h3>Deception</h3>
-        {/* <Deception /> */}
+        <h3><a href="de">Deception</a></h3>
       </div>
     </div>
   );
