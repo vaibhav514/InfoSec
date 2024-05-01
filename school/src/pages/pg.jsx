@@ -1,26 +1,26 @@
-import React from 'react';
+import React, { useState } from 'react';
 import BreadCrumps from "../components/BreadCrumps";
-function check() {
-    return (
-      <div>
-        <BreadCrumps page="Tools" title="Tools" />
-        {/* <div> */}
-        {/* <h3><a href="PasswordStrengthChecker">Password Strength Checker</a></h3> */}
-          {/* < /> */}
-        {/* </div> */}
-        <div>
-          <h3><a href="courses">Password Generator</a></h3>
-          {/* <PasswordGenerator /> */}
-        </div>
-        <div>
-          <h3><a href="courses">Encryption</a></h3>
-          {/* <Encryption /> */}
-        </div>
-        <div>
-          <h3><a href="courses">Deception</a></h3>
-          {/* <Deception /> */}
-        </div>
-      </div>
-    );
-  }
-  export default check;
+
+function PasswordGenerator() {
+  const [password, setPassword] = useState('');
+
+  const generatePassword = () => {
+    const length = 10; // Change as per requirement
+    const charset = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_+-=[]{}|;:,.<>?';
+    let newPassword = '';
+    for (let i = 0; i < length; i++) {
+      newPassword += charset.charAt(Math.floor(Math.random() * charset.length));
+    }
+    setPassword(newPassword);
+  };
+
+  return (
+    <div>
+      <BreadCrumps page="Tools/Password Generator" title="Password Generator" />
+      <center><h2><button onClick={generatePassword}>Generate Password</button></h2><br></br>
+      <h2>Generated Password: {password}</h2></center>
+    </div>
+  );
+}
+
+export default PasswordGenerator;
