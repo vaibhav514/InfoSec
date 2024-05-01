@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
+import BreadCrumps from "../components/BreadCrumps";
 import { data } from "../data";
 import "../quizzes.css";
 
@@ -101,6 +102,7 @@ const Quizzes = () => {
 
   return <div className="QSection">
     <div className="container">
+    <BreadCrumps page="Quiz" title="Quiz" />
       <h1>Cyber Quiz</h1>
       <div class="timer">Time Left: <span id="countdown">{timeLeft}</span> seconds</div>
       <hr/>
