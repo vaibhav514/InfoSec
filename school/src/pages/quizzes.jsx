@@ -101,16 +101,20 @@ const Quizzes = () => {
   }
 
   return <div className="QSection">
-    <div className="container">
     <BreadCrumps page="Quiz" title="Quiz" />
+    <div className="container">
+    <div className="quizbox">
       <h1>Cyber Quiz</h1>
       <div class="timer">Time Left: <span id="countdown">{timeLeft}</span> seconds</div>
       <hr/>
       {result?<>
         <h2>You Scored {score} out of 10</h2>
+        <hr/>
         <button onClick={reset}> Repeat </button>
+        <hr/>
         <button onClick={change}> New </button></>:<>
       <h2>{index+1}. {question.question}</h2>
+      <hr/>
       <ul>
         <li ref={Option1} onClick={(e)=>{checkAns(e,1)}}>{question.option1}</li>
         <li ref={Option2} onClick={(e)=>{checkAns(e,2)}}>{question.option2}</li>
@@ -120,6 +124,7 @@ const Quizzes = () => {
       <button onClick={next}>Next</button>
       <div className="index">{index+1} out of 10 questions</div></>}
 
+    </div>
     </div>
   </div>;
 };
