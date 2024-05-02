@@ -55,13 +55,14 @@ function Encryption() {
             value={text} 
             onChange={handleTextChange} 
             className="textarea"
+            placeholder='Plain Text'
             />
           <br />
           <button onClick={encryptText} className="en-btn">Encode</button>
           <br />
           {encryptedText && (
             <div className="encrypted-text">
-              Base64 text: {encryptedText}
+              <h2>Base64 text: {encryptedText}</h2>
               <button onClick={copyToClipboard} className="en-btn copy-button">Copy Encoded Text</button>
               {showBanner && <SuccessBanner />}
             </div>
