@@ -333,7 +333,7 @@ function Home() {
                                     <img src="assets/images/team1.jpg" alt="blogs" className="img-fluid rounded-circle" />
                                     <ul className="blog-meta">
                                         <li>
-                                            <a href="#author">Vaibhav Agrawal</a>
+                                            <a href="#author">Archit Kumar</a>
                                         </li>
                                         <li className="meta-item blog-lesson">
                                             <span className="meta-value"> Apr 19, 2024 </span>. 
@@ -383,7 +383,7 @@ function Home() {
                                         <img src="assets/images/team3.jpg" alt="" className="img-fluid rounded-circle" />
                                         <ul className="blog-meta">
                                             <li>
-                                                <a href="#author">Archit Kumar</a>
+                                                <a href="#author">Vaibhav Agrawal</a>
                                             </li>
                                             <li className="meta-item blog-lesson">
                                                 <span className="meta-value"> 
