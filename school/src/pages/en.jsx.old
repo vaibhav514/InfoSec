@@ -1,6 +1,5 @@
 import React, { useRef, useState } from 'react';
 import BreadCrumps from "../components/BreadCrumps";
-import './encryption.css';
 
 function Encryption() {
   const [text, setText] = useState('');
@@ -23,53 +22,34 @@ function Encryption() {
 
   const copyToClipboard = () => {
     navigator.clipboard.writeText(encryptedText);
-    handleShowBanner();
+    // Optionally provide user feedback
+    alert('Encrypted text copied to clipboard!');
   };
-
-  function SuccessBanner() {
-    return (
-      <div className="success-banner">
-        <p style={{color: 'black'}}>Copied Successfully!</p>
-      </div>
-    );
-  }
-  
-  const [showBanner, setShowBanner] = useState(false);
-
-  const handleShowBanner = () => {
-    setShowBanner(true);
-    setTimeout(() => {
-      setShowBanner(false);
-    }, 1500); // Hide the banner after 1.5 seconds
-  }
 
   return (
     <div>
       <BreadCrumps page="Tools/Base 64 Encoder" title="Base 64 Encoder"/>
-    <div className="container">
       <center>
         <h2>
-          <br />
+          <br></br>
           <textarea 
             ref={textAreaRef}
             value={text} 
             onChange={handleTextChange} 
-            className="textarea"
-            />
-          <br />
-          <button onClick={encryptText} className="en-btn">Encode</button>
-          <br />
-          {encryptedText && (
-            <div className="encrypted-text">
-              Base64 text: {encryptedText}
-              <button onClick={copyToClipboard} className="en-btn copy-button">Copy Encoded Text</button>
-              {showBanner && <SuccessBanner />}
-            </div>
-          )}
+            style={{ width: '80%', minHeight: '100px', resize: 'none' }} // Adjusted style
+          />
+          <br></br>
+          <br></br>
+          <button onClick={encryptText}>Encode</button>
+          <br></br>
+          <br></br>
+          Encrypted Text: {encryptedText}
+          <br></br>
+          <br></br>
+          <button onClick={copyToClipboard}>Copy Encoded Text</button>
         </h2>
       </center>
     </div>
-          </div>
   );
 }
 
