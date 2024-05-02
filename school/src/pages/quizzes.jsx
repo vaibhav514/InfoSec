@@ -113,7 +113,7 @@ const Quizzes = () => {
         <button onClick={reset}> Repeat </button>
         <hr/>
         <button onClick={change}> New </button></>:<>
-      <h2>{index+1}. {question.question}</h2>
+      <h2 className="question">{index+1}. {question.question}</h2>
       <hr/>
       <ul>
         <li ref={Option1} onClick={(e)=>{checkAns(e,1)}}>{question.option1}</li>
