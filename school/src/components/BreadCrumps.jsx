@@ -10,7 +10,7 @@ function BreadCrumps(props) {
             <h2 class="title mt-5 pt-lg-5 pt-sm-3">{props.title}</h2>
             <ul class="breadcrumbs-custom-path pb-sm-5 pb-4 mt-2 text-center mb-md-5">
               <li>
-                <a href="index.html">Home</a>
+                <a href="/">Home</a>
               </li>
               <li class="active"> / {props.page} </li>
             </ul>

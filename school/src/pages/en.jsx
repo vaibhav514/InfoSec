@@ -1,11 +1,56 @@
-import React from 'react';
+import React, { useState, useRef } from 'react';
 import BreadCrumps from "../components/BreadCrumps";
-function check() {
-    return (
-      <div>
-        <BreadCrumps page="Tools" title="Tools" />
-        
-      </div>
-    );
-  }
-  export default check;
+
+function Encryption() {
+  const [text, setText] = useState('');
+  const [encryptedText, setEncryptedText] = useState('');
+  const textAreaRef = useRef(null);
+
+  const handleTextChange = (e) => {
+    setText(e.target.value);
+    // Adjust the height of the text area based on its content
+    if (textAreaRef.current) {
+      textAreaRef.current.style.height = 'auto';
+      textAreaRef.current.style.height = textAreaRef.current.scrollHeight + 'px';
+    }
+  };
+
+  const encryptText = () => {
+    const encrypted = btoa(text); // Basic encryption using base64 encoding
+    setEncryptedText(encrypted);
+  };
+
+  const copyToClipboard = () => {
+    navigator.clipboard.writeText(encryptedText);
+    // Optionally provide user feedback
+    alert('Encrypted text copied to clipboard!');
+  };
+
+  return (
+    <div>
+      <BreadCrumps page="Tools/Base 64 Encoder" title="Base 64 Encoder"/>
+      <center>
+        <h2>
+          <br></br>
+          <textarea 
+            ref={textAreaRef}
+            value={text} 
+            onChange={handleTextChange} 
+            style={{ width: '80%', minHeight: '100px', resize: 'none' }} // Adjusted style
+          />
+          <br></br>
+          <br></br>
+          <button onClick={encryptText}>Encode</button>
+          <br></br>
+          <br></br>
+          Encrypted Text: {encryptedText}
+          <br></br>
+          <br></br>
+          <button onClick={copyToClipboard}>Copy Encoded Text</button>
+        </h2>
+      </center>
+    </div>
+  );
+}
+
+export default Encryption;

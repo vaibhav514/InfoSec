@@ -6,6 +6,7 @@ function Tools() {
   return (
     <div>
       <BreadCrumps page="Tools" title="Tools" />
+      <center>
       <div>
       <h3><a href="checker">Password Strength Checker</a></h3>
       </div>
@@ -13,11 +14,12 @@ function Tools() {
         <h3><a href="pg">Password Generator</a></h3>
       </div>
       <div>
-        <h3><a href="en">Encryption</a></h3>
+        <h3><a href="en">Base 64 Encoder</a></h3>
       </div>
       <div>
-        <h3><a href="de">Deception</a></h3>
+        <h3><a href="de">Base 64 Decoder</a></h3>
       </div>
+      </center>
     </div>
   );
 }
