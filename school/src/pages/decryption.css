@@ -1,10 +1,10 @@
-.container {
+.de-container {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
 }
 
-.textarea {
+.b64-textarea {
   width: 100%;
   min-height: 100px;
   resize: none;

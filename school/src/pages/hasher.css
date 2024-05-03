@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hasher-full {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.hash-copy {
+  margin-top: 4px;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.gen-hash {
+  margin-bottom: 20px;
+}
+
+.input-box {
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.hash-text {
+  font-size: 1.5rem;
+  height: 150px;
+  width: 80%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.hash-copy {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.hash-copy:hover {
+  background-color: #0056b3;
+}
+
+.hash-copy:focus {
+  outline: none;
+}

@@ -8,6 +8,7 @@ const buttons = [
   { label: "Password Strength Checker", link: "checker" },
   { label: "Base 64 Encoder", link: "en" },
   { label: "Base 64 Decoder", link: "de" },
+  { label: "Hash Creater", link: "hasher" },
   // Add more buttons as needed
 ];
 

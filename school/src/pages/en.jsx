@@ -1,18 +1,19 @@
-import React, { useRef, useState } from 'react';
+import React, { useRef, useState } from "react";
 import BreadCrumps from "../components/BreadCrumps";
-import './encryption.css';
+import "./encryption.css";
 
 function Encryption() {
-  const [text, setText] = useState('');
-  const [encryptedText, setEncryptedText] = useState('');
+  const [text, setText] = useState("");
+  const [encryptedText, setEncryptedText] = useState("");
   const textAreaRef = useRef(null);
 
   const handleTextChange = (e) => {
     setText(e.target.value);
     // Adjust the height of the text area based on its content
     if (textAreaRef.current) {
-      textAreaRef.current.style.height = 'auto';
-      textAreaRef.current.style.height = textAreaRef.current.scrollHeight + 'px';
+      textAreaRef.current.style.height = "auto";
+      textAreaRef.current.style.height =
+        textAreaRef.current.scrollHeight + "px";
     }
   };
 
@@ -29,11 +30,11 @@ function Encryption() {
   function SuccessBanner() {
     return (
       <div className="success-banner">
-        <p style={{color: 'black'}}>Copied Successfully!</p>
+        <p style={{ color: "black" }}>Copied Successfully!</p>
       </div>
     );
   }
-  
+
   const [showBanner, setShowBanner] = useState(false);
 
   const handleShowBanner = () => {
@@ -41,36 +42,43 @@ function Encryption() {
     setTimeout(() => {
       setShowBanner(false);
     }, 1500); // Hide the banner after 1.5 seconds
-  }
+  };
 
   return (
     <div>
-      <BreadCrumps page="Tools/Base 64 Encoder" title="Base 64 Encoder"/>
-    <div className="container">
+      <BreadCrumps page="Tools/Base 64 Encoder" title="Base 64 Encoder" />
       <center>
-        <h2>
-          <br />
-          <textarea 
-            ref={textAreaRef}
-            value={text} 
-            onChange={handleTextChange} 
-            className="textarea"
-            placeholder='Plain Text'
+        <div className="en-container">
+          <h2>
+            <br />
+            <textarea
+              ref={textAreaRef}
+              value={text}
+              onChange={handleTextChange}
+              className="b64-textarea"
+              placeholder="Plain Text"
             />
-          <br />
-          <button onClick={encryptText} className="en-btn">Encode</button>
-          <br />
-          {encryptedText && (
-            <div className="encrypted-text">
-              <h2>Base64 text: {encryptedText}</h2>
-              <button onClick={copyToClipboard} className="en-btn copy-button">Copy Encoded Text</button>
-              {showBanner && <SuccessBanner />}
-            </div>
-          )}
-        </h2>
+            <br />
+            <button onClick={encryptText} className="en-btn">
+              Encode
+            </button>
+            <br />
+            {encryptedText && (
+              <div className="encrypted-text">
+                <h2>Base64 text: {encryptedText}</h2>
+                <button
+                  onClick={copyToClipboard}
+                  className="en-btn copy-button"
+                >
+                  Copy Encoded Text
+                </button>
+                {showBanner && <SuccessBanner />}
+              </div>
+            )}
+          </h2>
+        </div>
       </center>
     </div>
-          </div>
   );
 }
 

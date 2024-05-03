@@ -9,6 +9,7 @@ import Home from "./pages/Home";
 import Checker from "./pages/checker";
 import Deception from "./pages/de";
 import Encryption from "./pages/en";
+import Hasher from "./pages/hasher";
 import PasswordGenerator from "./pages/pg";
 import Quiz from "./pages/quizzes";
 import Tools from "./pages/tools";
@@ -28,6 +29,7 @@ function App() {
           <Route path="/pg" element={<PasswordGenerator />} />
           <Route path="/en" element={<Encryption />} />
           <Route path="/de" element={<Deception />} />
+          <Route path="/hasher" element={<Hasher />} />
         </Routes>
       </BrowserRouter>
       <Footer />
