@@ -19,6 +19,9 @@ function Tools() {
       <div>
         <h3><a href="de">Base 64 Decoder</a></h3>
       </div>
+      <div>
+        <h3><a href="ip">IP Lookup</a></h3>
+      </div>
       </center>
     </div>
   );

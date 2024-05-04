@@ -12,6 +12,7 @@ import Encryption from "./pages/en";
 import PasswordGenerator from "./pages/pg";
 import Quiz from "./pages/quizzes";
 import Tools from "./pages/tools";
+import Ip from "./pages/ip"
 function App() {
   return (
     <div>
@@ -28,6 +29,7 @@ function App() {
           <Route path="/pg" element={<PasswordGenerator />} />
           <Route path="/en" element={<Encryption />} />
           <Route path="/de" element={<Deception />} />
+          <Route path="/ip" element={<Ip />} />
         </Routes>
       </BrowserRouter>
       <Footer />
