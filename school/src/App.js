@@ -6,6 +6,8 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Courses from "./pages/Courses";
 import Home from "./pages/Home";
+import StegImg from "./pages/StegImg/StegImg";
+import StegText from "./pages/Stega/StegText";
 import Checker from "./pages/checker";
 import Deception from "./pages/de";
 import Encryption from "./pages/en";
@@ -13,6 +15,7 @@ import Hasher from "./pages/hasher";
 import PasswordGenerator from "./pages/pg";
 import Quiz from "./pages/quizzes";
 import Tools from "./pages/tools";
+import Whois from "./pages/whois/whois";
 function App() {
   return (
     <div>
@@ -30,6 +33,11 @@ function App() {
           <Route path="/en" element={<Encryption />} />
           <Route path="/de" element={<Deception />} />
           <Route path="/hasher" element={<Hasher />} />
+          <Route path="/tools/geolocator" element={<Whois />} />
+          <Route path="/tools/secret" element={<StegText />} />
+          <Route path="/tools/Steganography" element={<StegImg />} />
+          {/* <Route path="/tools/Steganography/encode" element={<Se/>} />
+          <Route path="/tools/Steganography/decode" element={<Se />} /> */}
         </Routes>
       </BrowserRouter>
       <Footer />

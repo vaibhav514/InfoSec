@@ -1,9 +1,10 @@
 .QSection {
   padding-bottom: 100px;
 }
-
+/* .q-container {
+  border: 10px solid red;
+} */
 .quizbox {
-  border: 1px solid green;
   width: 50%;
   margin: auto;
   border: 3px solid blue;
@@ -14,6 +15,7 @@
 }
 
 .quizbox ul li {
+  font-weight: bold;
   display: flex;
   align-items: center;
   height: 70px;
@@ -78,5 +80,6 @@
 }
 
 .quizz-btn {
+  font-weight: bold;
   border: 2px solid blue;
 }
