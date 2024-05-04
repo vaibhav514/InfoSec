@@ -1,80 +1,82 @@
 .QSection {
-    padding-bottom: 100px;
+  padding-bottom: 100px;
 }
 
-
-.quizbox{
-    border: 1px solid green;
-    width: 85%;
-    margin: auto;
-    border: 3px solid blue;
-    padding: 25px;
-    display: flex;
-    flex-direction: column;
-    border-radius: 10px;
+.quizbox {
+  border: 1px solid green;
+  width: 50%;
+  margin: auto;
+  border: 3px solid blue;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
 }
-
 
 .quizbox ul li {
-    display: flex;
-    align-items: center;
-    height: 70px;
-    padding-left: 15px;
-    border: 2px solid rgb(0, 0, 0);
-    border-radius: 8px;
-    margin-bottom: 20px;
-    cursor: pointer;
+  display: flex;
+  align-items: center;
+  height: 70px;
+  padding-left: 15px;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 8px;
+  margin-bottom: 20px;
+  cursor: pointer;
 }
 .quizbox h1 {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 .quizbox button {
-    margin: auto;
-    width: 250px;
-    height: 65px;
-    /* font-size: 15px; */
-    font-size: 1.2rem;
-    font-weight: 500;
-    color: rgb(27, 0, 100);
-    background: white;
-    border-radius: 8px;
-    cursor: pointer;
+  margin: auto;
+  width: 250px;
+  height: 65px;
+  /* font-size: 15px; */
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: rgb(27, 0, 100);
+  background: white;
+  border-radius: 8px;
+  cursor: pointer;
 }
 
-.container .index {
-    margin: auto;
-    /* font-size: 18px; */
-    font-size: 1rem;
+.q-container .index {
+  margin: auto;
+  /* font-size: 18px; */
+  font-size: 1rem;
 }
 
-.container .correct {
-    background: #9df1af;
-    border-color: rgb(37, 238, 74);
-    color: black;
+.q-container .correct {
+  background: #9df1af;
+  border-color: rgb(37, 238, 74);
+  color: black;
 }
 
-.container .wrong {
-    background: #e58080;
-    border-color: #f83823;
-    color: black;
+.q-container .wrong {
+  background: #e58080;
+  border-color: #f83823;
+  color: black;
 }
 
 .timer {
-    top: 10px;
-    right: 10px;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    padding: 5px 10px;
-    border-radius: 5px;
-    width: 250px;
-    transition: color 0.5s; /* Add transition effect for color change */
-  }
-  
-  .timer.warning {
-    color: red; /* Change color to red */
-  }
-  
-  .question{
-    font-size: 28px;
-  }
+  top: 10px;
+  right: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  width: 250px;
+  transition: color 0.5s; /* Add transition effect for color change */
+}
+
+.timer.warning {
+  color: red; /* Change color to red */
+}
+
+.question {
+  font-size: 28px;
+}
+
+.quizz-btn {
+  border: 2px solid blue;
+}
