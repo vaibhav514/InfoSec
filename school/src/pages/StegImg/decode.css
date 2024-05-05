@@ -1,0 +1,27 @@
+.box {
+  max-width: 60%;
+  text-align: center;
+  margin: 0 20%;
+}
+.stbtn {
+  font-size: 2rem;
+  border-radius: 10px;
+  background-color: rgb(101, 215, 215);
+  cursor: pointer;
+  color: black;
+  padding: 20px;
+  margin: 20px;
+  font-weight: bold;
+  border: 4px solid blue;
+}
+.stbtn:hover {
+  background-color: aqua;
+}
+.stbtn-disabled {
+  font-weight: bold;
+  font-size: 2rem;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 4px solid rgb(9, 99, 36);
+}
