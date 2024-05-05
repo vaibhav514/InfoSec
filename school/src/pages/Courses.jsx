@@ -35,7 +35,7 @@ function Courses() {
                   <div class="card-footer">
                     <div class="author align-items-center">
                       <img
-                        src="assets/images/a1.jpg"
+                        src="assets/images/team2.jpg"
                         alt=""
                         class="img-fluid rounded-circle"
                       />
@@ -79,7 +79,7 @@ function Courses() {
                   <div class="card-footer">
                     <div class="author align-items-center">
                       <img
-                        src="assets/images/a2.jpg"
+                        src="assets/images/team3.jpg"
                         alt=""
                         class="img-fluid rounded-circle"
                       />
@@ -120,7 +120,7 @@ function Courses() {
                   <div class="card-footer">
                     <div class="author align-items-center">
                       <img
-                        src="assets/images/a3.jpg"
+                        src="assets/images/team1.jpg"
                         alt=""
                         class="img-fluid rounded-circle"
                       />

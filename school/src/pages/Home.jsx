@@ -426,8 +426,10 @@ function Home() {
                             </p>
                             <p className="mt-3">
                             
-                              We are the team of 3 Student from VIT Bhopal, We had made this as a major project under our supervisior. 
-                               We enjoyed and learned a lot while making this and we hope this project will be use full to others.
+                              We are the team of 3 Student from VIT Bhopal, We had made this as a major project under the 
+                              guidance of our supervisior Dr. Praveen Sir. 
+                              <br/>
+                            We enjoyed and learned a lot while making this and we hope this project will be usefull to others.
                             </p>
                             <a href="/about" className="btn btn-primary btn-style mt-md-5 mt-4">
                                 Discover More
