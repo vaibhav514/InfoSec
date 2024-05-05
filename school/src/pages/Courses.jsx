@@ -138,13 +138,13 @@ function Courses() {
                   </div>
                 </div>
               </div>
-              {/* <div class="col-lg-4 col-md-6 item mt-5 pt-lg-2">
+              <div class="col-lg-4 col-md-6 item mt-5 pt-lg-2">
                 <div class="card">
                   <div class="card-header p-0 position-relative">
-                    <a href="#course-single" class="zoom d-block">
+                    <a href="https://hbothra22.medium.com/how-do-i-get-started-in-cyber-security-my-perspective-learning-path-b53065189ba5" class="zoom d-block">
                       <img
                         class="card-img-bottom d-block"
-                        src="assets/images/c4.jpg"
+                        src="assets/images/c4.jpeg"
                         alt="Card cap"
                       />
                     </a>
@@ -155,44 +155,14 @@ function Courses() {
                     </div>
                   </div>
                   <div class="card-body course-details">
-                    <div class="price-review d-flex justify-content-between mb-1align-items-center">
-                      <p>$35.00</p>
-                      <ul class="rating-star">
-                        <li>
-                          <span class="fa fa-star"></span>
-                        </li>
-                        <li>
-                          <span class="fa fa-star"></span>
-                        </li>
-                        <li>
-                          <span class="fa fa-star"></span>
-                        </li>
-                        <li>
-                          <span class="fa fa-star"></span>
-                        </li>
-                        <li>
-                          <span class="fa fa-star-o"></span>
-                        </li>
-                      </ul>
-                    </div>
-                    <a href="#course-single" class="course-desc">
-                      Open Programming Courses for everyone : Python
+                    <a href="https://hbothra22.medium.com/how-do-i-get-started-in-cyber-security-my-perspective-learning-path-b53065189ba5" class="course-desc">
+                    How do I get Started in Cyber Security? — My Perspective & Learning Path!
                     </a>
-                    <div class="course-meta mt-4">
-                      <div class="meta-item course-lesson">
-                        <span class="fa fa-clock-o"></span>
-                        <span class="meta-value"> 20 hrs </span>
-                      </div>
-                      <div class="meta-item course-">
-                        <span class="fa fa-user-o"></span>
-                        <span class="meta-value"> 50 </span>
-                      </div>
-                    </div>
                   </div>
                   <div class="card-footer">
                     <div class="author align-items-center">
                       <img
-                        src="assets/images/a4.jpg"
+                        src="assets/images/a3.jpg"
                         alt=""
                         class="img-fluid rounded-circle"
                       />
@@ -203,21 +173,21 @@ function Courses() {
                         </li>
                         <li>
                           <span class="meta-value mx-1">in</span>{" "}
-                          <a href="#author"> Programing</a>
+                          <a href="#author"> Cyber</a>
                         </li>
                       </ul>
                     </div>
                   </div>
                 </div>
-              </div> */}
+              </div>
 
-              {/* <div class="col-lg-4 col-md-6 item mt-5 pt-lg-2">
+              <div class="col-lg-4 col-md-6 item mt-5 pt-lg-2">
                 <div class="card">
                   <div class="card-header p-0 position-relative">
-                    <a href="#course-single" class="zoom d-block">
+                    <a href="https://medium.com/@cloud.devops.enthusiast/computer-networking-c212abfb01c5" class="zoom d-block">
                       <img
                         class="card-img-bottom d-block"
-                        src="assets/images/c5.jpg"
+                        src="assets/images/c5.jpeg"
                         alt="Card cap"
                       />
                     </a>
@@ -229,39 +199,9 @@ function Courses() {
                     </div>
                   </div>
                   <div class="card-body course-details">
-                    <div class="price-review d-flex justify-content-between mb-1align-items-center">
-                      <p>$0.00</p>
-                      <ul class="rating-star">
-                        <li>
-                          <span class="fa fa-star"></span>
-                        </li>
-                        <li>
-                          <span class="fa fa-star"></span>
-                        </li>
-                        <li>
-                          <span class="fa fa-star"></span>
-                        </li>
-                        <li>
-                          <span class="fa fa-star"></span>
-                        </li>
-                        <li>
-                          <span class="fa fa-star-o"></span>
-                        </li>
-                      </ul>
-                    </div>
-                    <a href="#course-single" class="course-desc">
-                      Learning to Write as a clean Professional Author
+                    <a href="https://medium.com/@cloud.devops.enthusiast/computer-networking-c212abfb01c5" class="course-desc">
+                    Computer Networking
                     </a>
-                    <div class="course-meta mt-4">
-                      <div class="meta-item course-lesson">
-                        <span class="fa fa-clock-o"></span>
-                        <span class="meta-value"> 20 hrs </span>
-                      </div>
-                      <div class="meta-item course-">
-                        <span class="fa fa-user-o"></span>
-                        <span class="meta-value"> 50 </span>
-                      </div>
-                    </div>
                   </div>
                   <div class="card-footer">
                     <div class="author align-items-center">
@@ -277,60 +217,30 @@ function Courses() {
                         </li>
                         <li>
                           <span class="meta-value mx-1">in</span>{" "}
-                          <a href="#author"> Programing</a>
+                          <a href="#author"> Networking</a>
                         </li>
                       </ul>
                     </div>
                   </div>
                 </div>
-              </div> */}
+              </div>
 
-              {/* <div class="col-lg-4 col-md-6 item mt-5 pt-lg-2">
+              <div class="col-lg-4 col-md-6 item mt-5 pt-lg-2">
                 <div class="card">
                   <div class="card-header p-0 position-relative">
-                    <a href="#course-single" class="zoom d-block">
+                    <a href="https://medium.com/@Imaginovation/10-web-application-security-best-practices-you-need-to-know-30a6e2fed1a2" class="zoom d-block">
                       <img
                         class="card-img-bottom d-block"
-                        src="assets/images/c6.jpg"
+                        src="assets/images/c6.jpeg"
                         alt="Card cap"
                       />
                     </a>
                     <div class="course-price-badge-new"> New</div>
                   </div>
                   <div class="card-body course-details">
-                    <div class="price-review d-flex justify-content-between mb-1align-items-center">
-                      <p>$49.00</p>
-                      <ul class="rating-star">
-                        <li>
-                          <span class="fa fa-star"></span>
-                        </li>
-                        <li>
-                          <span class="fa fa-star"></span>
-                        </li>
-                        <li>
-                          <span class="fa fa-star"></span>
-                        </li>
-                        <li>
-                          <span class="fa fa-star"></span>
-                        </li>
-                        <li>
-                          <span class="fa fa-star-o"></span>
-                        </li>
-                      </ul>
-                    </div>
-                    <a href="#course-single" class="course-desc">
-                      Learn Master JQuery in a Short Period of Time
+                    <a href="https://medium.com/@Imaginovation/10-web-application-security-best-practices-you-need-to-know-30a6e2fed1a2" class="course-desc">
+                    10 Web Application Security Best Practices You Need to Know
                     </a>
-                    <div class="course-meta mt-4">
-                      <div class="meta-item course-lesson">
-                        <span class="fa fa-clock-o"></span>
-                        <span class="meta-value"> 20 hrs </span>
-                      </div>
-                      <div class="meta-item course-">
-                        <span class="fa fa-user-o"></span>
-                        <span class="meta-value"> 50 </span>
-                      </div>
-                    </div>
                   </div>
                   <div class="card-footer">
                     <div class="author align-items-center">
@@ -346,13 +256,13 @@ function Courses() {
                         </li>
                         <li>
                           <span class="meta-value mx-1">in</span>{" "}
-                          <a href="#author"> Teaching</a>
+                          <a href="#author"> Security</a>
                         </li>
                       </ul>
                     </div>
                   </div>
                 </div>
-              </div> */}
+              </div>
             </div>
             {/* pagination */}
             <div class="pagination-wrapper mt-5 pt-lg-3 text-center">

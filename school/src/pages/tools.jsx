@@ -25,30 +25,12 @@ function Tools() {
     <div>
       <BreadCrumps page="Tools" title="Tools" />
       <center>
-<<<<<<< HEAD
-      <div>
-      <h3><a href="checker">Password Strength Checker</a></h3>
-      </div>
-      <div>
-        <h3><a href="pg">Password Generator</a></h3>
-      </div>
-      <div>
-        <h3><a href="en">Base 64 Encoder</a></h3>
-      </div>
-      <div>
-        <h3><a href="de">Base 64 Decoder</a></h3>
-      </div>
-      <div>
-        <h3><a href="ip">IP Lookup</a></h3>
-      </div>
-=======
       <div className="button-grid">
           {/* Render buttons dynamically */}
           {buttons.map((button, index) => (
             <Button key={index} label={button.label} link={button.link} />
           ))}
         </div>
->>>>>>> dd5cb6a0d4550020d2d1731dc5c522ab6d7e7c20
       </center>
     </div>
   );

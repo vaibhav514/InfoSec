@@ -270,40 +270,37 @@ function Home() {
                 <div className="container">
                     <div className="row main-cont-wthree-2">
                         <div className="col-lg-5 feature-grid-left">
-                            <h5 className="title-small mb-1">Study and graduate</h5>
+                            <h5 className="title-small mb-1">Study and Learn</h5>
                             <h3 className="title-big mb-4">Our Facilities </h3>
-                            <p className="text-para">Curabitur id gravida risus. Fusce eget ex fermentum, ultricies nisi ac sed,
-                                lacinia est.
-                                Quisque ut lectus consequat, venenatis eros et, commodo risus. Nullam sit amet laoreet elit.
-                                Suspendisse non magna a velit efficitur. </p>
-                            <p className="mt-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas ab qui
-                                impedit, libero illo
-                                quia sequi quibusdam iure. Error minus quod reprehenderit quae dolor velit soluta animi
-                                voluptate dicta enim? Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio,
-                                provident!</p>
-                            <a href="#url" className="btn btn-primary btn-style mt-md-5 mt-4">Discover More</a>
+                            <p className="text-para">Our platform offers diverse curated questions and quizzes,
+                             providing a dynamic way to evaluate and reinforce your understanding.
+ </p>
+                            <p className="mt-3">Dedicated to a well-rounded education, InfoSecBytes is where learning meets 
+                            practicality, empowering you with the knowledge and skills needed to navigate the intricate cybersecurity 
+                            landscape confidently!</p>
+                            <a href="/about" className="btn btn-primary btn-style mt-md-5 mt-4">Discover More</a>
                         </div>
                         <div className="col-lg-7 feature-grid-right mt-lg-0 mt-5">
                             <div className="call-grids-w3 d-grid">
                                 <div className="grids-1 box-wrap">
                                     <a href="#more" className="icon"><span className="fa fa-certificate"></span></a>
-                                    <h4><a href="#feature" className="title-head">Global Certificate</a></h4>
-                                    <p>Vivamus a ligula quam. Ut blandit eu leo non. Duis sed doloramet laoreet.</p>
+                                    <h4><a href="/courses" className="title-head">Blogs</a></h4>
+                                    <p>Read and Learn new things every now and then.</p>
                                 </div>
                                 <div className="grids-1 box-wrap">
                                     <a href="#more" className="icon"><span className="fa fa-book"></span></a>
-                                    <h4><a href="#feature" className="title-head">Books & Library</a></h4>
-                                    <p>Vivamus a ligula quam. Ut blandit eu leo non. Duis sed dolor amet laoreet.</p>
+                                    <h4><a href="/quiz" className="title-head">Quizzes</a></h4>
+                                    <p>Check how much you know about you stuff.</p>
                                 </div>
                                 <div className="grids-1 box-wrap">
                                     <a href="#more" className="icon"><span className="fa fa-trophy"></span></a>
-                                    <h4><a href="#feature" className="title-head">Scholarship</a></h4>
-                                    <p>Vivamus a ligula quam. Ut blandit eu leo non. Duis sed dolor amet laoreet.</p>
+                                    <h4><a href="/tools" className="title-head">Tools</a></h4>
+                                    <p>Let's make your work easier with our multiple tools.</p>
                                 </div>
                                 <div className="grids-1 box-wrap">
                                     <a href="#more" className="icon"><span className="fa fa-graduation-cap"></span></a>
-                                    <h4><a href="#feature" className="title-head">Alumni Support</a></h4>
-                                    <p>Vivamus a ligula quam. Ut blandit eu leo non. Duis sed dolor amet laoreet.</p>
+                                    <h4><a href="/contact" className="title-head">Support</a></h4>
+                                    <p>Facing difficulties, We are here to solve it for you .</p>
                                 </div>
                             </div>
                         </div>
@@ -417,26 +414,22 @@ function Home() {
                     <div className="row main-cont-wthree-2">
                         <div className="col-lg-5 feature-grid-left">
                             <h5 className="title-small mb-1">
-                                Experienced professionals
+                                Developer
                             </h5>
                             <h3 className="title-big mb-4">
-                                Meet our teachers
+                                Meet us
                             </h3>
                             <p className="text-para">
-                                Curabitur id gravida risus. Fusce eget ex fermentum, ultricies nisi ac sed,
-                                lacinia est.
-                                Quisque ut lectus consequat, venenatis eros et, commodo risus. Nullam sit amet laoreet elit.
-                                Suspendisse non magna a velit efficitur.
+                            Welcome to InfoSecBytes, the gateway to a comprehensive cybersecurity learning experience,
+                             meticulously designed to guide users through essential concepts and practical exercises,
+                              fostering a profound understanding of cybersecurity.
                             </p>
                             <p className="mt-3">
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas ab qui
-                                impedit,
-                                libero illo
-                                quia sequi quibusdam iure. Error minus quod reprehenderit quae dolor velit soluta animi
-                                voluptate dicta enim? Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio,
-                                provident!
+                            
+                              We are the team of 3 Student from VIT Bhopal, We had made this as a major project under our supervisior. 
+                               We enjoyed and learned a lot while making this and we hope this project will be use full to others.
                             </p>
-                            <a href="#url" className="btn btn-primary btn-style mt-md-5 mt-4">
+                            <a href="/about" className="btn btn-primary btn-style mt-md-5 mt-4">
                                 Discover More
                             </a>
                         </div>

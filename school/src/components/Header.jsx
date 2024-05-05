@@ -28,10 +28,15 @@ function Header() {
       <header id="site-header" className="fixed-top">
         <div className="container">
           <nav className="navbar navbar-expand-lg navbar-dark stroke">
-            <h1>
+            <h1> 
               <a className="navbar-brand" href="/">
-                <span className="fa fa-diamond"></span>
-                InfoSecByte
+              <img 
+                            src="assets/images/logo.png" 
+                            alt="InfoSec" 
+                            title="InfoSec" 
+                            style={{height:"28px"}} />
+                            <span></span>
+                  InfoSecByte
                 <span className="logo">Cyber Insights & Tools</span>
               </a>
             </h1>

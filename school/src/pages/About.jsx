@@ -21,8 +21,7 @@ function About() {
                   </div>
                 </div>
                 <p className="mt-4">
-                  If you are looking for high-quality and reliable online
-                  courses.
+                Empowering proactive cybersecurity through interactive learning
                 </p>
               </div>
             </div>
@@ -40,8 +39,7 @@ function About() {
                   </div>
                 </div>
                 <p className="mt-4">
-                  If you are looking for high-quality and reliable online
-                  courses.
+                InfoSecBytes aims to offer a comprehensive cybersecurity learning platform.
                 </p>
               </div>
             </div>
@@ -59,8 +57,7 @@ function About() {
                   </div>
                 </div>
                 <p className="mt-4">
-                  If you are looking for high-quality and reliable online
-                  courses.
+                Offering a secure platform for users to gain practical cybersecurity skills.
                 </p>
               </div>
             </div>
@@ -74,17 +71,16 @@ function About() {
             <div className="col-lg-6 align-self">
               <span className="title-small mb-2">About Us</span>
               <h3 className="title-big mx-0">
-                Welcome to the Coursing - all available online courses
+                Welcome to the InfoSecByte - Cyber Insights & Tools.
               </h3>
               <p className="mt-lg-4 mt-3">
-                Lorem ipsum viverra feugiat. Pellen tesque libero ut justo,
-                ultrices ligula. Semper at tempufddfel. Lorem ipsum dolor sit
-                amet consectetur adipisicing elit. Non quae, fugiat.
+              Our project, InfoSecBytes, aims to build a website that provides users with a comprehensive 
+              learning experience in cybersecurity, allowing them to grasp key concepts and tools, 
+              engage in practical exercises, and assess their understanding through curated questions and quizzes. 
               </p>
               <p className="mt-3 mb-lg-5">
-                Lorem ipsum viverra feugiat. Pellen tesque libero ut justo,
-                ultrices ligula. Semper at. Lorem ipsum dolor sit amet elit. Non
-                quae.
+              The platform will provide a safe environment for users to experiment with basic cybersecurity tools, 
+              fostering a deeper understanding and promoting a proactive approach towards online security. 
               </p>
             </div>
             <div className="col-lg-6 left-wthree-img mt-lg-0 mt-sm-5 mt-4">
@@ -103,7 +99,7 @@ function About() {
             <div className="col-lg-6 align-self pr-lg-4">
               <div className="progress-info info1">
                 <h6 className="progress-tittle">
-                  Figma illustrations <span className="">80%</span>
+                Node.js<span className="">80%</span>
                 </h6>
                 <div className="progress">
                   <div
@@ -118,7 +114,7 @@ function About() {
               </div>
               <div className="progress-info info2">
                 <h6 className="progress-tittle">
-                  PHP programming <span className="">95%</span>
+                React.js<span className="">95%</span>
                 </h6>
                 <div className="progress">
                   <div
@@ -133,7 +129,7 @@ function About() {
               </div>
               <div className="progress-info info3">
                 <h6 className="progress-tittle">
-                  Web design & development <span className="">90%</span>
+                  JSON<span className="">90%</span>
                 </h6>
                 <div className="progress">
                   <div
@@ -148,7 +144,7 @@ function About() {
               </div>
               <div className="progress-info info4">
                 <h6 className="progress-tittle">
-                  Adobe Photoshop <span className="">75%</span>
+                FastAPI <span className="">75%</span>
                 </h6>
                 <div className="progress">
                   <div
@@ -163,7 +159,7 @@ function About() {
               </div>
               <div className="progress-info info2 mb-0">
                 <h6 className="progress-tittle">
-                  Wordpress design <span className="">95%</span>
+                 JQuery<span className="">95%</span>
                 </h6>
                 <div className="progress">
                   <div
@@ -181,16 +177,19 @@ function About() {
               <span className="title-small mb-2">Progress bars</span>
               <h3 className="title-big">
                 {" "}
-                What you have in our Popular Online Courses
+                What we have used
               </h3>
               <p className="mt-md-4 mt-3">
-                Lorem ipsum viverra feugiat. Pellen tesque libero ut justo,
-                ultrices in ligula. Semper at. Lorem ipsum dolor sit amet elit.
-                Non quae, fugiat nihil ad. Lorem ipsum dolor sit amet. Lorem
-                ipsum init dolor sit, amet elit. Dolor ipsum non velit, culpa!
-                elit ut et.
+              The software architecture of our project is structured around the User Interface,
+               Applications, Data Analysis, and Integration of all layers, leveraging a combination
+                of languages, libraries, and frameworks to achieve this functionality and efficiency.
+                <br/>
+                <br/>
+                Overall, the software architecture of our project is designed to be modular, scalable, 
+                and efficient, leveraging a combination of languages, libraries, and frameworks to 
+                deliver a robust and feature-rich cybersecurity educational platform.
               </p>
-              <a href="#url" className="btn btn-primary btn-style mt-md-5 mt-4">
+              <a href="/" className="btn btn-primary btn-style mt-md-5 mt-4">
                 Get started now
               </a>
             </div>
@@ -202,31 +201,20 @@ function About() {
         <div className="container py-lg-5 py-md-3">
           <div className="row">
             <div className="col-lg-6 about-right-faq align-self">
-              <span className="title-small mb-2">Start online course</span>
+              <span className="title-small mb-2">Start now</span>
               <h3 className="title-big mx-0">
                 {" "}
-                Enhance your skills with best online courses
+                Enhance your skills
               </h3>
               <p className="mt-lg-4 mt-3 mb-lg-5 mb-4">
-                Lorem ipsum viverra feugiat. Pellen tesque libero ut justo,
-                ultrices in ligula. Semper at tempufddfel. Lorem ipsum dolor sit
-                amet elit. Non quae, fugiat libero ut justo, ultrices in ligula
-                amet dolor sit
+              Our team has made substantial strides in developing cybersecurity tools 
+              to enhance digital protection, providing an effective way to safeguard sensitive data.
+              <br />
+              In addition to our current accomplishments, we are also actively working 
+              on developing a fast and responsive website. We are aiming to integrate 
+              our suite of cybersecurity tools seamlessly with our learning content 
+              providing users with a comprehensive and user-friendly product.
               </p>
-              <div className="two-grids mt-md-0 mt-md-5 mt-4">
-                <div className="grids_info">
-                  <h4>Global Certificate</h4>
-                  <p className="">
-                    Pellen tesque libero ut justo, ultrices in ligula elit sed.
-                  </p>
-                </div>
-                <div className="grids_info">
-                  <h4>Books and library</h4>
-                  <p className="">
-                    Pellen tesque libero ut justo, ultrices in ligula elit sed.
-                  </p>
-                </div>
-              </div>
             </div>
             <div className="col-lg-3 col-6 left-wthree-img mt-lg-0 mt-sm-5 mt-4">
               <img
