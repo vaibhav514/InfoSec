@@ -34,9 +34,7 @@ function Header() {
                             src="assets/images/logo.png" 
                             alt="InfoSec" 
                             title="InfoSec" 
-                            style={{height:"28px"}} />
-                            <span></span>
-                  InfoSecByte
+                            style={{height:"35px"}} />
                 <span className="logo">Cyber Insights & Tools</span>
               </a>
             </h1>

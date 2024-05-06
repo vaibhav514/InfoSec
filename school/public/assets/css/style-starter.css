@@ -3110,7 +3110,8 @@ input[type="button"].btn-block {
   margin-right: 1rem;
   font-size: 1.25rem;
   line-height: inherit;
-  white-space: nowrap; }
+  white-space: nowrap;
+ }
   .navbar-brand:hover, .navbar-brand:focus {
     text-decoration: none; }
 
@@ -12325,7 +12326,7 @@ span.plus {
   .twice {
     margin-bottom: 12px; } }
 
-/* / contact1-responsive */
-/* /contact1 */
-
-/*# sourceMappingURL=style-starter.css.map */
+.logo-spacing {
+   margin-right: 10px; /* Adjust the margin as needed */
+}
+    
