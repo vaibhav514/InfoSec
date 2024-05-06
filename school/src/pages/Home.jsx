@@ -18,7 +18,7 @@ function Home() {
                                             <p className="mt-4 pr-lg-4">
                                                 Take the first step to your journey to success with us
                                             </p>
-                                            <a className="btn btn-style btn-primary mt-sm-5 mt-4 mr-2" href="about.html"> 
+                                            <a className="btn btn-style btn-primary mt-sm-5 mt-4 mr-2" href="/about"> 
                                             Ready to  get started?
                                             </a>
                                         </div>
@@ -37,7 +37,7 @@ function Home() {
                                             <p className="mt-4 pr-lg-4">
                                                 Our self improvement courses is very effective 
                                             </p>
-                                            <a className="btn btn-style btn-primary mt-sm-5 mt-4 mr-2" href="about.html"> 
+                                            <a className="btn btn-style btn-primary mt-sm-5 mt-4 mr-2" href="/about"> 
                                                 Ready to get started?
                                             </a>
                                         </div>
@@ -56,7 +56,7 @@ function Home() {
                                             <p className="mt-4 pr-lg-4">
                                                 Don't waste your time, check out our tools
                                             </p>
-                                            <a className="btn btn-style btn-primary mt-sm-5 mt-4 mr-2" href="about.html"> 
+                                            <a className="btn btn-style btn-primary mt-sm-5 mt-4 mr-2" href="/about"> 
                                                 Ready to get started?
                                             </a>
                                         </div>
@@ -75,7 +75,7 @@ function Home() {
                                             <p className="mt-4 pr-lg-4">
                                                 Take the first step to your journey to success with us
                                             </p>
-                                            <a className="btn btn-style btn-primary mt-sm-5 mt-4 mr-2" href="about.html"> 
+                                            <a className="btn btn-style btn-primary mt-sm-5 mt-4 mr-2" href="/about"> 
                                                 Ready to get started?
                                             </a>
                                         </div>
@@ -322,15 +322,14 @@ function Home() {
                     <div className="col-md-6">
                         <div className="top-pic1">
                             <div className="card-body blog-details">
-                                <a href="#blog-single" className="blog-desc">
-                                    Enhance your educational skills and also experience
-                                    with best online courses
+                                <a href="https://architkumar20001.medium.com/what-is-cyber-security-ca914accfbb1" className="blog-desc">
+                                What is Cyber Security?
                                 </a>
                                 <div className="author align-items-center">
                                     <img src="assets/images/team1.jpg" alt="blogs" className="img-fluid rounded-circle" />
                                     <ul className="blog-meta">
                                         <li>
-                                            <a href="#author">Archit Kumar</a>
+                                            <a href="https://architkumar20001.medium.com/">Archit Kumar</a>
                                         </li>
                                         <li className="meta-item blog-lesson">
                                             <span className="meta-value"> Apr 19, 2024 </span>. 
@@ -372,15 +371,15 @@ function Home() {
                         <div className="mt-4">
                             <div className="top-pic3">
                                 <div className="card-body blog-details">
-                                    <a href="#blog-single" className="blog-desc"> 
-                                        Our self improvement courses are more
-                                        effective. Start leaarning online
+                                    <a href="https://medium.com/@vagrawal7905/navigating-the-complex-world-of-computer-networks-a-comprehensive-guide-0f784d432a4c" className="blog-desc"> 
+                                        Navigating the Complex World of Computer Networks: 
+                                        A Comprehensive Guide
                                     </a>
                                     <div className="author align-items-center">
                                         <img src="assets/images/team3.jpg" alt="" className="img-fluid rounded-circle" />
                                         <ul className="blog-meta">
                                             <li>
-                                                <a href="#author">Vaibhav Agrawal</a>
+                                                <a href="https://medium.com/@vagrawal7905">Vaibhav Agrawal</a>
                                             </li>
                                             <li className="meta-item blog-lesson">
                                                 <span className="meta-value"> 

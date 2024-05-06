@@ -19,7 +19,6 @@ function Courses() {
                         alt="Card cap"
                       />
                     </a>
-                    <div class="course-price-badge"> Free</div>
                     <div class="post-pos">
                       <a href="#reciepe" class="receipe blue">
                         Beginner
@@ -57,14 +56,13 @@ function Courses() {
               <div class="col-lg-4 col-md-6 item mt-md-0 mt-5">
                 <div class="card">
                   <div class="card-header p-0 position-relative">
-                    <a href="#course-single" class="zoom d-block">
+                    <a href="https://medium.com/@vagrawal7905/navigating-the-complex-world-of-computer-networks-a-comprehensive-guide-0f784d432a4c" class="zoom d-block">
                       <img
                         class="card-img-bottom d-block"
                         src="assets/images/c2.jpg"
                         alt="Card cap"
                       />
                     </a>
-                    <div class="course-price-badge"> Free</div>
                     <div class="post-pos">
                       <a href="#reciepe" class="receipe blue">
                         Beginner
@@ -72,8 +70,8 @@ function Courses() {
                     </div>
                   </div>
                   <div class="card-body course-details">
-                    <a href="#course-single" class="course-desc">
-                      Learning to Write as a clean Professional Author
+                    <a href="https://medium.com/@vagrawal7905/navigating-the-complex-world-of-computer-networks-a-comprehensive-guide-0f784d432a4c" class="course-desc">
+                    Navigating the Complex World of Computer Networks: A Comprehensive Guide
                     </a>
                   </div>
                   <div class="card-footer">
@@ -86,11 +84,11 @@ function Courses() {
                       <ul class="blog-meta">
                         <li>
                           <span class="meta-value mx-1">by</span>{" "}
-                          <a href="#author"> Vaibhav</a>
+                          <a href="https://medium.com/@vagrawal7905"> Vaibhav</a>
                         </li>
                         <li>
                           <span class="meta-value mx-1">in</span>{" "}
-                          <a href="#author"> Cyber</a>
+                          <a href="#author"> Networking</a>
                         </li>
                       </ul>
                     </div>
@@ -101,7 +99,7 @@ function Courses() {
               <div class="col-lg-4 col-md-6 item mt-lg-0 mt-5">
                 <div class="card">
                   <div class="card-header p-0 position-relative">
-                    <a href="#course-single" class="zoom d-block">
+                    <a href="https://architkumar20001.medium.com/what-is-cyber-security-ca914accfbb1" class="zoom d-block">
                       <img
                         class="card-img-bottom d-block"
                         src="assets/images/c3.jpg"
@@ -113,8 +111,8 @@ function Courses() {
                     <div class="course-price-badge-new"> New</div>
                   </div>
                   <div class="card-body course-details">
-                    <a href="#course-single" class="course-desc">
-                      Learn Master JQuery in a Short Period of Time
+                    <a href="https://architkumar20001.medium.com/what-is-cyber-security-ca914accfbb1" class="course-desc">
+                    What is Cyber Security?
                     </a>
                   </div>
                   <div class="card-footer">
@@ -127,7 +125,7 @@ function Courses() {
                       <ul class="blog-meta">
                         <li>
                           <span class="meta-value mx-1">by</span>{" "}
-                          <a href="#author"> Archit</a>
+                          <a href="https://architkumar20001.medium.com/"> Archit</a>
                         </li>
                         <li>
                           <span class="meta-value mx-1">in</span>{" "}
@@ -191,7 +189,6 @@ function Courses() {
                         alt="Card cap"
                       />
                     </a>
-                    <div class="course-price-badge"> Free</div>
                     <div class="post-pos">
                       <a href="#reciepe" class="receipe blue">
                         Beginner
