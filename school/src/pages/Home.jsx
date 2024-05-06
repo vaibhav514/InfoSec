@@ -346,15 +346,14 @@ function Home() {
                     <div className="col-md-6 mt-md-0 mt-4">
                         <div className="top-pic2">
                             <div className="card-body blog-details">
-                                <a href="#blog-single" className="blog-desc">
-                                    Be more productive to be more Successful. Take your
-                                    first jouney
+                                <a href="https://medium.com/@shivamkumar121986/navigating-the-landscape-of-information-security-a-comprehensive-exploration-of-the-cia-triad-2db962f2c6dd" className="blog-desc">
+                                Navigating the Landscape of Information Security: A Comprehensive Exploration of the CIA Triad
                                 </a>
                                 <div className="author align-items-center">
                                     <img src="assets/images/team2.jpg" alt="" className="img-fluid rounded-circle" />
                                     <ul className="blog-meta">
                                         <li>
-                                            <a href="#author">Manan Ladha</a>
+                                            <a href="https://medium.com/@Manan_9">Manan Ladha</a>
                                         </li>
                                         <li className="meta-item blog-lesson">
                                             <span className="meta-value"> 

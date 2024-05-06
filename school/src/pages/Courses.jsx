@@ -12,7 +12,7 @@ function Courses() {
               <div class="col-lg-4 col-md-6 item">
                 <div class="card">
                   <div class="card-header p-0 position-relative">
-                    <a href="#course-single" class="zoom d-block">
+                    <a href="https://medium.com/@shivamkumar121986/navigating-the-landscape-of-information-security-a-comprehensive-exploration-of-the-cia-triad-2db962f2c6dd" class="zoom d-block">
                       <img
                         class="card-img-bottom d-block"
                         src="assets/images/c1.jpg"
@@ -26,8 +26,8 @@ function Courses() {
                     </div>
                   </div>
                   <div class="card-body course-details">
-                    <a href="#course-single" class="course-desc">
-                      Open Programming Courses for everyone : Python
+                    <a href="https://medium.com/@shivamkumar121986/navigating-the-landscape-of-information-security-a-comprehensive-exploration-of-the-cia-triad-2db962f2c6dd" class="course-desc">
+                    Navigating the Landscape of Information Security: A Comprehensive Exploration of the CIA Triad
                     </a>
                     
                   </div>
@@ -41,7 +41,7 @@ function Courses() {
                       <ul class="blog-meta">
                         <li>
                           <span class="meta-value mx-1">by</span>{" "}
-                          <a href="#author"> Manan</a>
+                          <a href="https://medium.com/@Manan_9"> Manan</a>
                         </li>
                         <li>
                           <span class="meta-value mx-1">in</span>{" "}
